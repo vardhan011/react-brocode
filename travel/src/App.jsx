@@ -7,6 +7,8 @@
  */
 
 import Button from "./components/Button"
+import Pp from "./pp.jsx"
+import Mycomponent from "./Mycomponent.jsx"
 
 
 function App() {
@@ -33,7 +35,7 @@ function App() {
     //               <p>mr.whiskaz@catnap.meow</p>
     //           </div>
     //       </article>
-          
+
     //       <article className="contact-card">
     //           <img 
     //               src="./images/fluffykins.png"
@@ -55,7 +57,7 @@ function App() {
     //               <p>fluff@me.com</p>
     //           </div>
     //       </article>
-          
+
     //       <article className="contact-card">
     //           <img 
     //               src="./images/felix.png"
@@ -77,7 +79,7 @@ function App() {
     //               <p>thecat@hotmail.com</p>
     //           </div>
     //       </article>
-          
+
     //       <article className="contact-card">
     //           <img 
     //               src="./images/pumpkin.png"
@@ -99,10 +101,12 @@ function App() {
     //               <p>pumpkin@scrimba.com</p>
     //           </div>
     //       </article>
-          
+
     //   </div>
 
-   <Button/>
+    // //  <Button/>
+    // <Pp />
+    <Mycomponent />
   )
 }
 
